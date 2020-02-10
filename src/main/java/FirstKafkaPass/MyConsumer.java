@@ -12,11 +12,11 @@ import java.time.Duration;
 import java.util.Arrays;
 import java.util.Properties;
 
-public class Consumer {
+public class MyConsumer {
 
     public static void main(String[] args) {
 
-        Logger logger = LoggerFactory.getLogger(Consumer.class.getName());
+        Logger logger = LoggerFactory.getLogger(MyConsumer.class.getName());
 
         String bootstrapServers = "127.0.0.1:9092";
         String groupId = "ID";

@@ -1,5 +1,6 @@
 package FirstKafkaPass;
 
+import org.apache.flink.api.common.serialization.SimpleStringSchema;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;
@@ -12,6 +13,9 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class SimpleProducer {
+   /* public SimpleProducer(String kabull1, SimpleStringSchema simpleStringSchema, Properties p) {
+    }*/
+
     public static void main(String[] args) throws IOException {
 
         System.out.println("Hello fucking world");
