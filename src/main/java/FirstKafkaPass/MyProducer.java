@@ -10,10 +10,10 @@ import java.io.*;
 import java.util.Properties;
 import java.util.Scanner;
 
-public class ProducerKabul {
-    public ProducerKabul(String other, SimpleStringSchema simpleStringSchema, Properties p) {
+public class MyProducer {
+   /* public MyProducer(String other, SimpleStringSchema simpleStringSchema, Properties p) {
 
-    }
+    }*/
 
     public static void main(String[] args) throws IOException {
 
