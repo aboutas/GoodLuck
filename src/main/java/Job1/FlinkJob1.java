@@ -10,7 +10,7 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
 import java.util.Properties;
 
-public class StratumCalc {
+public class FlinkJob1 {
 
     public static void main(String[] args) {
 
@@ -19,11 +19,11 @@ public class StratumCalc {
 
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
-       Properties p = new Properties();
-       p.setProperty("BootstrapServer",server );
+        Properties p = new Properties();
+        p.setProperty("BootstrapServer",server );
 
-       //DataStream<String> KafkaData = (DataStream<String>) env.addSource(new ProducerKabul("Other" , new SimpleStringSchema(),p));
+        //DataStream<String> KafkaData = (DataStream<String>) env.addSource(new MyConsumer("Other" , new SimpleStringSchema(),p));
 
-     }
+    }
 }
 

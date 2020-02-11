@@ -1,5 +1,6 @@
 package FirstKafkaPass;
 
+import org.apache.flink.api.common.serialization.SimpleStringSchema;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
@@ -13,6 +14,10 @@ import java.util.Arrays;
 import java.util.Properties;
 
 public class MyConsumer {
+
+  /*  public MyConsumer(String other, SimpleStringSchema simpleStringSchema, Properties p) {
+
+    }*/
 
     public static void main(String[] args) {
 
